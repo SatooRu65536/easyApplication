@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <button id="run">再登録</button>
+
+  <p>名前:
+    <input type="text" id="cstmr_lnm" placeholder="名字">
+    <input type="text" id="cstmr_fnm" placeholder="名前">
+  </p>
+
+  <p>名前(カタカナ):
+    <input type="text" id="cstmr_lkn" placeholder="名字(カタカナ)">
+    <input type="text" id="cstmr_fkn" placeholder="名前(カタカナ)">
+  </p>
+
+  <p>性別:
+    <input type="radio" id="sex_typ_2" name="sex_typ" value="2" checked>女性
+    <input type="radio" id="sex_typ_1" name="sex_typ" value="1">男性
+  </p>
+
+  <p>生年月日:
+    <input type="number" id="birth_yyyy" placeholder="誕生日 yyyy年">
+    <input type="number" id="birth_mm" placeholder="誕生日 mm月">
+    <input type="number" id="birth_dd" placeholder="誕生日 dd日">
+  </p>
+
+  <p>電話番号:
+    <input type="number" id="telno1" placeholder="電話番号 090">
+    <input type="number" id="telno2" placeholder="電話番号 xxxx">
+    <input type="number" id="telno3" placeholder="電話番号 xxxx">
+  </p>
+
+  <p>メアド:
+    <input type="text" id="ml_addr" placeholder="メールアドレス">
+  </p>
+
+  <p>郵便番号:
+    <input type="number" id="cmnt01" placeholder="郵便番号 xxx">
+    <input type="number" id="cmnt02" placeholder="郵便番号 xxxx">
+  </p>
+
+  <p>住所:
+    <input type="text" id="cmnt11" placeholder="都道府県">
+    <input type="text" id="cmnt12" placeholder="市町村">
+    <input type="text" id="cmnt13" placeholder="町名">
+    <input type="text" id="cmnt14" placeholder="番地">
+  </p>
+
+  <p>パスワード:
+    <input type="text" id="gnrl_cstmr_passwd" placeholder="申し込み用パスワード">
+  </p>
+
+  <p>同行者:
+    <input type="text" id="lastNm" placeholder="名字">
+    <input type="text" id="firstNm" placeholder="名前">
+    <input type="text" id="lastNmKn" placeholder="名字(カタカナ)">
+    <input type="text" id="firstNmKn" placeholder="名前(カタカナ)">
+    <input type="number" id="telNo" placeholder="電話番号">
+  </p>
+</body>
+
+<script src="popup.js"></script>
+
+</html>

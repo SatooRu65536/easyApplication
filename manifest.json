@@ -1,0 +1,16 @@
+{
+  "name": "easy application",
+  "description": "簡単にチケットの登録ができる",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": ["activeTab", "scripting", "storage"]
+}
